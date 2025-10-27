@@ -1,61 +1,134 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🦉 OwleSIM - eSIM Management Platform
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Next.js](https://img.shields.io/badge/Next.js-15.5-black)
+![Laravel](https://img.shields.io/badge/Laravel-11-red)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## About Laravel
+eSIM 패키지 관리 및 판매를 위한 풀스택 웹 애플리케이션
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🚀 기술 스택
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Frontend
+- **Framework**: Next.js 15 (React 19)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **UI Components**: Radix UI, Shadcn UI
+- **State Management**: Redux Toolkit, Zustand
+- **Data Fetching**: TanStack Query
+- **Form Handling**: React Hook Form + Zod
+- **Authentication**: Firebase Auth
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Backend
+- **Framework**: Laravel 11
+- **Language**: PHP 8.2+
+- **Database**: MySQL
+- **Authentication**: Laravel Sanctum
+- **Payment**: Stripe, Razorpay, Cashfree
+- **eSIM Provider**: Airalo API
 
-## Learning Laravel
+## 📁 프로젝트 구조
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+```
+owlesim/
+├── frontend/          # Next.js 애플리케이션
+│   ├── src/
+│   │   ├── app/      # App Router 페이지
+│   │   ├── components/
+│   │   ├── lib/      # 유틸리티 및 설정
+│   │   └── redux/    # 상태 관리
+│   └── package.json
+├── app/              # Laravel 애플리케이션
+├── config/           # Laravel 설정
+├── database/         # 마이그레이션 및 시더
+├── routes/           # API 및 웹 라우트
+└── vercel.json       # Vercel 배포 설정
+```
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🛠️ 설치 및 실행
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Prerequisites
+- Node.js 18+
+- PHP 8.2+
+- Composer
+- MySQL
 
-## Laravel Sponsors
+### Backend (Laravel)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+```bash
+# 의존성 설치
+composer install
 
-### Premium Partners
+# 환경 설정
+cp .env.example .env
+php artisan key:generate
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+# 데이터베이스 설정
+php artisan migrate --seed
 
-## Contributing
+# 서버 실행
+php artisan serve
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Frontend (Next.js)
 
-## Code of Conduct
+```bash
+cd frontend
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+# 의존성 설치
+npm install
 
-## Security Vulnerabilities
+# 개발 서버 실행
+npm run dev
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+프론트엔드: http://localhost:3000
+백엔드: http://localhost:8000
 
-## License
+## 📦 배포
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+자세한 배포 가이드는 [DEPLOYMENT.md](./DEPLOYMENT.md)를 참조하세요.
+
+### Vercel 배포 (권장)
+
+1. GitHub 저장소 연결
+2. Root Directory를 `frontend`로 설정
+3. 환경 변수 설정
+4. Deploy 클릭
+
+## 🔑 환경 변수
+
+### Frontend
+```env
+NEXT_PUBLIC_API_URL=your-backend-api-url
+NEXT_PUBLIC_FIREBASE_API_KEY=your-firebase-key
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your-stripe-key
+```
+
+### Backend
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=owlesim
+DB_USERNAME=root
+DB_PASSWORD=
+
+AIRALO_API_KEY=your-airalo-key
+STRIPE_SECRET=your-stripe-secret
+```
+
+## 📱 주요 기능
+
+- ✅ 다국어 지원 (한국어, 영어, 중국어, 일본어 등)
+- ✅ eSIM 패키지 검색 및 구매
+- ✅ 다양한 결제 수단 (Stripe, Razorpay, Cashfree)
+- ✅ 사용자 대시보드 및 주문 내역
+- ✅ 관리자 패널
+- ✅ 실시간 알림
+- ✅ KYC 인증
+- ✅ 지원 티켓 시스템
+
+## 📄 License
+
+MIT License - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
