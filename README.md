@@ -87,14 +87,19 @@ npm run dev
 
 ## 📦 배포
 
+✅ **현재 배포 상태**
+- **GitHub**: https://github.com/mrblackfree/owlesim
+- **Vercel**: https://frontend-i33100g2a-sssmario-4950s-projects.vercel.app
+- **자동 배포**: ✅ 활성화 (main 브랜치에 push하면 자동 배포)
+
 자세한 배포 가이드는 [DEPLOYMENT.md](./DEPLOYMENT.md)를 참조하세요.
 
-### Vercel 배포 (권장)
+### Vercel 배포 (완료)
 
-1. GitHub 저장소 연결
-2. Root Directory를 `frontend`로 설정
-3. 환경 변수 설정
-4. Deploy 클릭
+1. ✅ GitHub 저장소 연결
+2. ✅ Root Directory를 `frontend`로 설정
+3. ✅ 환경 변수 설정
+4. ✅ 자동 배포 활성화
 
 ## 🔑 환경 변수
 
