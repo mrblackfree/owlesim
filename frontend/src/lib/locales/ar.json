@@ -208,7 +208,7 @@
                 "downloadApp": {
                     "text": "تحميل التطبيق",
                     "icon": "Download",
-                    "link": "https://play.google.com/store/apps/details?id=com.esimtel.app"
+                    "link": "https://play.google.com/store/apps/details?id=com.owlesim.app"
                 },
                 "viewPlans": {
                     "text": "عرض الخطط",
@@ -224,7 +224,7 @@
                 "text": "قصتنا",
                 "icon": "Heart"
             },
-            "title": "نبذة عن eSIM Tell",
+            "title": "نبذة عن OWLeSIM",
             "description": "ربط المسافرين حول العالم بحلول eSIM سلسة وبأسعار معقولة."
         },
         "mission": {
@@ -309,7 +309,7 @@
         },
         "cta": {
             "title": "هل أنت مستعد لتجربة الاتصال العالمي؟",
-            "description": "انضم إلى ملايين المسافرين الذين يثقون بـ eSIM Tell للاتصال السلس في جميع أنحاء العالم.",
+            "description": "انضم إلى ملايين المسافرين الذين يثقون بـ OWLeSIM للاتصال السلس في جميع أنحاء العالم.",
             "button": {
                 "text": "تصفح الخطط",
                 "icon": "Globe2",

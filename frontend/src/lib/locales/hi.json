@@ -211,7 +211,7 @@
                 "downloadApp": {
                     "text": "ऐप डाउनलोड करें",
                     "icon": "Download",
-                    "link": "https://play.google.com/store/apps/details?id=com.esimtel.app"
+                    "link": "https://play.google.com/store/apps/details?id=com.owlesim.app"
                 },
                 "viewPlans": {
                     "text": "प्लान देखें",
@@ -227,7 +227,7 @@
                 "text": "हमारी कहानी",
                 "icon": "Heart"
             },
-            "title": "eSIM Tell के बारे में",
+            "title": "OWLeSIM के बारे में",
             "description": "दुनियाभर के यात्रियों को निर्बाध, किफायती eSIM समाधान से जोड़ना।"
         },
         "mission": {
@@ -312,7 +312,7 @@
         },
         "cta": {
             "title": "वैश्विक कनेक्टिविटी का अनुभव करने के लिए तैयार हैं?",
-            "description": "दुनियाभर के लाखों यात्रियों के साथ जुड़ें जो निर्बाध कनेक्टिविटी के लिए eSIM Tell पर भरोसा करते हैं।",
+            "description": "दुनियाभर के लाखों यात्रियों के साथ जुड़ें जो निर्बाध कनेक्टिविटी के लिए OWLeSIM पर भरोसा करते हैं।",
             "button": {
                 "text": "प्लान ब्राउज़ करें",
                 "icon": "Globe2",

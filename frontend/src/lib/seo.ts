@@ -5,13 +5,13 @@ import { FRONT_BASE_URL } from '@/config/constant';
 
 // SEO defaults configuration
 const SEO_DEFAULTS = {
-    siteName: 'eSIM Tell',
-    defaultTitle: 'eSIM Tell | Global eSIM Solutions for Travelers',
+    siteName: 'OWLeSIM',
+    defaultTitle: 'OWLeSIM | Global eSIM Solutions for Travelers',
     defaultDescription:
         'Stay connected globally with smart eSIM solutions. Instant activation in 180+ countries without expensive roaming fees.',
     defaultImage: '/images/splash.png',
     defaultKeywords: ['eSIM', 'travel SIM', 'international roaming', 'mobile data', 'global connectivity'],
-    twitterHandle: '@esimtel',
+    twitterHandle: '@owlesim',
     baseUrl: FRONT_BASE_URL
 } as const;
 
@@ -37,7 +37,7 @@ function formatTitle(title?: string): string {
 
     // Check if title already contains site name variations (case-insensitive)
     const titleLower = title.toLowerCase();
-    const siteNameVariations = ['esim tell', '| esim tell', '- esim tell', 'esimtell'];
+    const siteNameVariations = ['owlesim', '| owlesim', '- owlesim', 'owl esim'];
 
     const hasSiteName = siteNameVariations.some((variation) => titleLower.includes(variation));
 
@@ -100,7 +100,7 @@ function mergeKeywords(customKeywords: string[]): string[] {
  * Generates alt text for images
  */
 function generateImageAlt(title?: string): string {
-    return title ? `${title} - eSIM Tell` : 'eSIM Tell - Global Connectivity Solutions';
+    return title ? `${title} - OWLeSIM` : 'OWLeSIM - Global Connectivity Solutions';
 }
 
 export function createPageSEO({
@@ -125,7 +125,7 @@ export function createPageSEO({
         title: finalTitle,
         description: finalDescription,
         keywords: finalKeywords,
-        authors: [{ name: 'eSIM Tell Team' }],
+        authors: [{ name: 'OWLeSIM Team' }],
         creator: SEO_DEFAULTS.siteName,
         publisher: SEO_DEFAULTS.siteName,
 

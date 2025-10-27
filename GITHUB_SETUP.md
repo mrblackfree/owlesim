@@ -1,4 +1,4 @@
-# 🔗 GitHub 연결 가이드
+# 🔗 OWLeSIM GitHub 연결 가이드
 
 ## 방법 1: Vercel 대시보드를 통한 자동 연결 (가장 쉬움! ⭐)
 

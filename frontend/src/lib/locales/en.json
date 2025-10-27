@@ -209,7 +209,7 @@
                 "downloadApp": {
                     "text": "Download App",
                     "icon": "Download",
-                    "link": "https://play.google.com/store/apps/details?id=com.esimtel.app"
+                    "link": "https://play.google.com/store/apps/details?id=com.owlesim.app"
                 },
                 "viewPlans": {
                     "text": "View Plans",
@@ -225,7 +225,7 @@
                 "text": "Our Story",
                 "icon": "Heart"
             },
-            "title": "About eSIM Tell",
+            "title": "About OWLeSIM",
             "description": "Connecting travelers worldwide with seamless, affordable eSIM solutions."
         },
         "mission": {
@@ -310,7 +310,7 @@
         },
         "cta": {
             "title": "Ready to Experience Global Connectivity?",
-            "description": "Join millions of travelers who trust eSIM Tell for seamless connectivity worldwide.",
+            "description": "Join millions of travelers who trust OWLeSIM for seamless connectivity worldwide.",
             "button": {
                 "text": "Browse Plans",
                 "icon": "Globe2",

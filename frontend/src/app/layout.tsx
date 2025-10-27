@@ -16,16 +16,16 @@ import { inter, poppins } from './fonts/fonts';
 
 export const metadata: Metadata = {
     title: {
-        default: 'eSIM Tell | Global eSIM Solutions for Travelers',
-        template: '%s | eSIM Tell'
+        default: 'OWLeSIM | Global eSIM Solutions for Travelers',
+        template: '%s | OWLeSIM'
     },
     description:
         'Stay connected globally with smart eSIM solutions. Instant activation in 180+ countries without expensive roaming fees.',
     keywords: ['eSIM', 'travel SIM', 'international roaming', 'mobile data', 'global connectivity'],
-    authors: [{ name: 'eSIM Tell Team' }],
-    creator: 'eSIM Tell',
-    publisher: 'eSIM Tell',
-    metadataBase: new URL(FRONT_BASE_URL || 'https://admin.esimtel.com'),
+    authors: [{ name: 'OWLeSIM Team' }],
+    creator: 'OWLeSIM',
+    publisher: 'OWLeSIM',
+    metadataBase: new URL(FRONT_BASE_URL || 'https://owlesim.com'),
     alternates: {
         canonical: '/'
     },
@@ -33,25 +33,25 @@ export const metadata: Metadata = {
         type: 'website',
         locale: 'en_US',
         url: '/',
-        title: 'eSIM Tell | Global eSIM Solutions',
+        title: 'OWLeSIM | Global eSIM Solutions',
         description: 'Experience seamless international connectivity with eSIM technology',
-        siteName: 'eSIM Tell',
+        siteName: 'OWLeSIM',
         images: [
             {
                 url: `${FRONT_BASE_URL}/images/splash.png`,
                 width: 1200,
                 height: 630,
-                alt: 'eSIM Tell - Global Connectivity Solutions'
+                alt: 'OWLeSIM - Global Connectivity Solutions'
             }
         ]
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'eSIM Tell | Global eSIM Solutions',
+        title: 'OWLeSIM | Global eSIM Solutions',
         description: 'Stay connected worldwide with smart eSIM technology',
         images: ['/images/splash.png'],
-        creator: '@esimtel',
-        site: '@esimtel'
+        creator: '@owlesim',
+        site: '@owlesim'
     },
     robots: {
         index: true,

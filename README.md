@@ -1,4 +1,4 @@
-# 🦉 OwleSIM - eSIM Management Platform
+# 🦉 OWLeSIM - eSIM Management Platform
 
 ![Next.js](https://img.shields.io/badge/Next.js-15.5-black)
 ![Laravel](https://img.shields.io/badge/Laravel-11-red)

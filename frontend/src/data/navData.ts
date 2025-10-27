@@ -21,7 +21,7 @@ export const navData = {
                     { name: 'App Store', href: 'https://www.apple.com/in/app-store/' },
                     {
                         name: 'Google Play Store',
-                        href: 'https://play.google.com/store/apps/details?id=com.esimtel.app&hl=en_IN'
+                        href: 'https://play.google.com/store/apps/details?id=com.owlesim.app&hl=en_IN'
                     }
                 ]
             },
