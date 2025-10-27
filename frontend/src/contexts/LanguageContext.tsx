@@ -8,9 +8,10 @@ import en from '@/lib/locales/en.json';
 import es from '@/lib/locales/es.json';
 import fr from '@/lib/locales/fr.json';
 import hi from '@/lib/locales/hi.json';
+import ko from '@/lib/locales/ko.json';
 import zh from '@/lib/locales/zh.json';
 
-type Locale = 'EN' | 'HI' | 'ES' | 'FR' | 'AR' | 'ZH';
+type Locale = 'EN' | 'KO' | 'HI' | 'ES' | 'FR' | 'AR' | 'ZH';
 
 interface LanguageContextType {
     locale: Locale;
@@ -26,6 +27,7 @@ interface LanguageContextType {
 
 const translations = {
     EN: en,
+    KO: ko,
     HI: hi,
     ES: es,
     FR: fr,
@@ -35,6 +37,7 @@ const translations = {
 
 const localeMapping = {
     EN: 'en-US',
+    KO: 'ko-KR',
     HI: 'hi-IN',
     ES: 'es-ES',
     FR: 'fr-FR',
@@ -69,12 +72,18 @@ const detectBrowserLanguage = (): Locale => {
     if (typeof window === 'undefined') return 'EN';
 
     const browserLang = navigator.language.toLowerCase();
-    if (browserLang.includes('hi') || browserLang.includes('in')) {
+    if (browserLang.includes('ko')) {
+        return 'KO';
+    } else if (browserLang.includes('hi') || browserLang.includes('in')) {
         return 'HI';
     } else if (browserLang.includes('es')) {
         return 'ES';
     } else if (browserLang.includes('fr')) {
         return 'FR';
+    } else if (browserLang.includes('ar')) {
+        return 'AR';
+    } else if (browserLang.includes('zh')) {
+        return 'ZH';
     }
     return 'EN';
 };

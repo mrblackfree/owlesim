@@ -1,0 +1,616 @@
+{
+    "common": {
+        "title": "앱에 오신 것을 환영합니다",
+        "description": "다국어 지원 Next.js 애플리케이션입니다",
+        "navigation": {
+            "home": "홈",
+            "about": "소개",
+            "products": "제품",
+            "contact": "문의"
+        },
+        "buttons": {
+            "learn_more": "자세히 보기",
+            "get_started": "시작하기",
+            "contact_us": "문의하기",
+            "signIn": "로그인"
+        }
+    },
+    "home": {
+        "nav": {
+            "whatIsEsim": "eSIM이란?",
+            "aboutUs": "회사 소개",
+            "downloadApp": "앱 다운로드",
+            "appStore": "App Store",
+            "googlePlay": "Google Play 스토어",
+            "resources": "리소스",
+            "allDestinations": "모든 목적지",
+            "allPackages": "모든 패키지",
+            "allCountryPlan": "모든 국가 요금제",
+            "supportedDevices": "지원 기기"
+        },
+        "hero": {
+            "byCreators": "제작",
+            "brandAlt": "브랜드 로고",
+            "mainHeading": "전 세계 어디서나 ",
+            "mainSubHeading": "스마트 eSIM 솔루션으로 연결하세요 ",
+            "description": "원활한 국제 연결을 경험하세요. 물리적인 SIM 카드 없이 180개 이상의 국가에서 로컬 데이터 요금제를 즉시 이용하실 수 있습니다.",
+            "chooseDestination": "시작하려면 목적지를 선택하세요",
+            "searchPlaceholder": "목적지 검색",
+            "featureCountries": "180개 이상 국가",
+            "featureActivation": "즉시 활성화",
+            "featureNoRoaming": "로밍 수수료 없음",
+            "imageAlt": "eSIM 폰을 들고 있는 여성"
+        },
+        "whatIsEsim": {
+            "imageAlt": "eSIM 기술이란",
+            "sectionTag": "기술 설명",
+            "heading": "eSIM이란 무엇인가요?",
+            "description": "eSIM(embedded SIM)은 기기에 직접 내장된 디지털 SIM 카드입니다. 기존의 물리적 SIM 카드와 달리, eSIM은 원격으로 활성화할 수 있으며 물리적으로 카드를 교체할 필요 없이 통신사 간 전환이 가능합니다.",
+            "keyBenefitsTitle": "주요 이점:",
+            "benefit1Title": "물리적 카드 불필요",
+            "benefit1Desc": "모든 것이 디지털 - 분실하거나 손상될 작은 SIM 카드가 더 이상 없습니다",
+            "benefit2Title": "즉시 활성화",
+            "benefit2Desc": "몇 시간이나 며칠이 아닌 몇 분 안에 연결됩니다",
+            "benefit3Title": "다중 요금제",
+            "benefit3Desc": "여러 통신사 프로필을 저장하고 쉽게 전환할 수 있습니다"
+        },
+        "travelDestination": {
+            "globalEsim": "글로벌 eSIM 솔루션",
+            "choosePlan": "완벽한 요금제를 선택하세요",
+            "planDescription": "전 세계 어디서나 즉시 모바일 데이터를 이용하세요. 물리적 SIM 카드도, 로밍 수수료도 없이, 여행하는 곳 어디서나 원활한 연결을 제공합니다.",
+            "viewDestinations": "180개 이상 목적지 모두 보기",
+            "byCountry": "국가별",
+            "byRegion": "지역별"
+        },
+        "popularPlan": {
+            "mostPopularEsims": "가장 인기 있는 {count}개 eSIM",
+            "popularEsims": "인기 eSIM",
+            "choosePackages": "{pages}페이지에 걸쳐 총 {total}개 패키지 중 선택",
+            "viewAllPackages": "모든 패키지 보기",
+            "chooseThisPlan": "이 요금제 선택",
+            "viewPlanDetails": "요금제 상세 보기"
+        },
+        "whyChoose": {
+            "whyChooseUs": "왜 저희를 선택해야 할까요?",
+            "stayConnected": "여행 중에도 연결 유지",
+            "feature1Title": "유연한 데이터 요금제",
+            "feature1Desc": "예산과 일정에 맞는 셀룰러 데이터를 제공합니다. 1GB부터 무제한 요금제까지, 모든 것을 제공합니다!",
+            "feature2Title": "간편한 설정",
+            "feature2Desc": "eSIM 앱을 다운로드하고, eSIM을 설치한 다음, eSIM 데이터 요금제를 구매하세요 — 목적지에 도착하는 순간 자동으로 활성화됩니다.",
+            "feature3Title": "숨겨진 비용 없음",
+            "feature3Desc": "비싼 로밍을 피하고 싶다면, eSIM 기술이 좋은 대안입니다. 출발 전에 인터넷 연결 비용을 미리 알 수 있습니다!",
+            "feature4Title": "여러 여행에 하나의 eSIM",
+            "feature4Desc": "기존 eSIM에 새로운 목적지를 추가하세요 — 매번 새로운 eSIM을 설치할 필요가 없습니다. 충전하고 연결하세요!",
+            "feature5Title": "스마트 사용량 알림",
+            "feature5Desc": "최악의 순간에 eSIM 데이터가 소진될 위험을 피하세요 — 요금제의 80%를 사용하면 알려드립니다.",
+            "feature6Title": "전 세계 커버리지",
+            "feature6Desc": "어디를 가든 온라인 상태를 유지하세요 — 글로벌 eSIM 데이터 요금제 또는 지역 요금제로 전체 지역과 그 이상을 탐험하세요."
+        },
+        "faq": {
+            "faqHeading": "자주 묻는 질문",
+            "faqDescription": "eSIM 설정, 호환성 및 사용에 대해 알아야 할 모든 것."
+        },
+        "footer": {
+            "popularDestinations": "인기 목적지",
+            "popularCountryPlan": "인기 국가 요금제",
+            "esim": "eSIM",
+            "whatIsEsim": "eSIM이란",
+            "supportedDevices": "지원 기기",
+            "aboutUs": "회사 소개",
+            "allDestinations": "모든 목적지",
+            "allPackages": "모든 패키지",
+            "allCountryPlan": "모든 국가 요금제",
+            "allRegionPlan": "모든 지역 요금제",
+            "followUs": "팔로우하기",
+            "twitter": "트위터 (현 X)",
+            "facebook": "페이스북",
+            "linkedin": "링크드인",
+            "youtube": "유튜브",
+            "instagram": "인스타그램",
+            "reddit": "레딧",
+            "downloadOnThe": "다운로드",
+            "appStore": "App Store",
+            "getItOn": "다운로드",
+            "googlePlay": "Google Play",
+            "copyright": "2025 eSIM Global. All rights reserved.",
+            "privacyPolicy": "개인정보처리방침",
+            "termsOfService": "서비스 약관"
+        }
+    },
+    "whatIsEsim": {
+        "hero": {
+            "badge": {
+                "text": "차세대 기술",
+                "icon": "Smartphone"
+            },
+            "title": "eSIM: 무엇이며, 어떻게 작동하나요?",
+            "description": "연결 방식을 바꾸는 혁신적인 디지털 SIM 기술을 만나보세요. 더 이상 물리적 SIM 카드도, 통신사 제한도 없습니다 – 원활한 글로벌 연결만 있을 뿐입니다.",
+            "stats": {
+                "countries": {
+                    "value": "200+",
+                    "label": "국가"
+                },
+                "users": {
+                    "value": "500만+",
+                    "label": "사용자"
+                },
+                "uptime": {
+                    "value": "99.9%",
+                    "label": "가동 시간"
+                }
+            }
+        },
+        "whatIsSection": {
+            "badge": {
+                "text": "디지털 혁신",
+                "icon": "Shield"
+            },
+            "title": "eSIM이란 무엇인가요?",
+            "description": "eSIM(embedded SIM)은 기기에 직접 내장된 디지털 SIM 카드입니다. 기존의 물리적 SIM 카드와 달리, eSIM은 프로그래밍이 가능하고 원격으로 활성화할 수 있어 통신사를 쉽게 전환하고 여러 전화번호를 관리할 수 있습니다.",
+            "keyFeatures": {
+                "title": "주요 기능:",
+                "feature1": "물리적 SIM 카드 불필요",
+                "feature2": "원격 활성화 및 프로비저닝",
+                "feature3": "하나의 기기에 여러 통신사 프로필",
+                "feature4": "향상된 보안 및 변조 방지"
+            },
+            "cta": {
+                "text": "지원 기기",
+                "link": "/esim-supported-devices"
+            },
+            "floatingCard": {
+                "title": "즉시 설정",
+                "description": "물리적 SIM 불필요"
+            }
+        },
+        "howItWorks": {
+            "badge": {
+                "text": "스마트 프로세스",
+                "icon": "Zap"
+            },
+            "title": "eSIM은 어떻게 작동하나요?",
+            "description": "eSIM 기술은 안전한 무선 프로비저닝 프로세스를 통해 작동합니다. 물리적 카드를 삽입하는 대신, 기기가 디지털 방식으로 통신사 프로필을 다운로드하고 설치하여 전체 프로세스를 원활하고 즉각적으로 만듭니다.",
+            "processTitle": "작동 방식:",
+            "steps": {
+                "step1": {
+                    "number": "1",
+                    "title": "eSIM 요금제 구매",
+                    "description": "앱을 통해 데이터 요금제를 선택하고 구매를 완료합니다"
+                },
+                "step2": {
+                    "number": "2",
+                    "title": "QR 코드 스캔",
+                    "description": "QR 코드를 받아 기기 카메라로 스캔합니다"
+                },
+                "step3": {
+                    "number": "3",
+                    "title": "자동 설정",
+                    "description": "기기가 eSIM 프로필을 자동으로 다운로드하고 설치합니다"
+                },
+                "step4": {
+                    "number": "4",
+                    "title": "사용 시작",
+                    "description": "물리적 SIM 카드 없이 즉시 연결을 즐기세요"
+                }
+            },
+            "cta": {
+                "text": "지금 eSIM 체험하기",
+                "icon": "Download",
+                "link": "/all-packages"
+            },
+            "statusIndicator": {
+                "text": "활성"
+            }
+        },
+        "callToAction": {
+            "title": "eSIM 기술을 경험할 준비가 되셨나요?",
+            "description": "디지털 연결로 전환한 전 세계 수백만 사용자와 함께하세요",
+            "buttons": {
+                "downloadApp": {
+                    "text": "앱 다운로드",
+                    "icon": "Download",
+                    "link": "https://play.google.com/store/apps/details?id=com.owlesim.app"
+                },
+                "viewPlans": {
+                    "text": "요금제 보기",
+                    "icon": "ArrowRight",
+                    "link": "/all-packages"
+                }
+            }
+        }
+    },
+    "aboutUs": {
+        "hero": {
+            "badge": {
+                "text": "우리의 이야기",
+                "icon": "Heart"
+            },
+            "title": "OWLeSIM 소개",
+            "description": "전 세계 여행자들을 원활하고 저렴한 eSIM 솔루션으로 연결합니다."
+        },
+        "mission": {
+            "badge": {
+                "text": "우리의 미션",
+                "icon": "Globe"
+            },
+            "title": "글로벌 연결의 혁신",
+            "description": "여행하는 곳 어디서나 연결 상태를 유지할 수 있는 원활하고 즉각적인 eSIM 솔루션을 제공합니다. 더 이상 비싼 로밍 요금이나 현지 SIM 카드의 번거로움은 없습니다.",
+            "keyPoints": {
+                "point1": "60초 안에 즉시 활성화",
+                "point2": "180개 이상 국가 커버리지",
+                "point3": "투명한 가격"
+            },
+            "cta": {
+                "text": "요금제 탐색",
+                "icon": "ArrowRight",
+                "link": "/all-destinations"
+            },
+            "floatingBadge": {
+                "value": "180+",
+                "label": "국가"
+            }
+        },
+        "team": {
+            "badge": {
+                "text": "우리 팀",
+                "icon": "Users"
+            },
+            "title": "여행자가 만든, 여행자를 위한",
+            "description": "엔지니어와 여행 전문가로 구성된 우리 팀은 완벽한 연결 경험을 보장하기 위해 끊임없이 노력합니다. 전 세계 실제 시나리오에서 솔루션을 테스트했습니다.",
+            "stats": {
+                "users": {
+                    "value": "100만+",
+                    "label": "만족한 사용자"
+                },
+                "support": {
+                    "value": "24/7",
+                    "label": "지원"
+                }
+            },
+            "values": {
+                "value1": "보안 우선 접근",
+                "value2": "고객 중심"
+            },
+            "floatingRating": {
+                "stars": 5,
+                "rating": "4.9"
+            }
+        },
+        "technology": {
+            "badge": {
+                "text": "혁신",
+                "icon": "Zap"
+            },
+            "title": "여행 연결의 미래",
+            "description": "최첨단 eSIM 플랫폼은 AI를 사용하여 전 세계에서 사용 가능한 최상의 네트워크에 자동으로 연결합니다. 실시간 최적화로 가장 빠르고 안정적인 연결을 보장합니다.",
+            "techFeatures": {
+                "feature1": "AI 네트워크 선택",
+                "feature2": "스마트 로밍 기술",
+                "feature3": "군사급 보안"
+            },
+            "performanceStats": {
+                "uptime": {
+                    "value": "99.9%",
+                    "label": "가동 시간"
+                },
+                "activation": {
+                    "value": "< 30초",
+                    "label": "활성화"
+                }
+            },
+            "cta": {
+                "text": "패키지 탐색",
+                "icon": "ArrowRight",
+                "link": "/all-destinations"
+            },
+            "floatingBadge": {
+                "value": "5G",
+                "label": "준비 완료"
+            }
+        },
+        "cta": {
+            "title": "글로벌 연결을 경험할 준비가 되셨나요?",
+            "description": "전 세계 원활한 연결을 위해 OWLeSIM을 신뢰하는 수백만 여행자와 함께하세요.",
+            "button": {
+                "text": "요금제 둘러보기",
+                "icon": "Globe2",
+                "link": "/all-packages"
+            }
+        }
+    },
+    "profile": {
+        "header": {
+            "defaultAlt": "사용자",
+            "joined": "가입일"
+        },
+        "sidebar": {
+            "title": "계정 설정",
+            "navigation": {
+                "accountInfo": "계정 정보",
+                "accountInfoDesc": "개인 정보 관리",
+                "esimDetails": "내 E-Sim 상세정보",
+                "esimDetailsDesc": "eSIM 프로필 관리",
+                "orderHistory": "주문 내역",
+                "orderHistoryDesc": "구매 내역 보기",
+                "privacyPolicy": "개인정보처리방침",
+                "privacyPolicyDesc": "개인정보 약관 읽기",
+                "termsConditions": "이용 약관",
+                "termsConditionsDesc": "서비스 약관 보기",
+                "faq": "자주 묻는 질문",
+                "faqDesc": "자주 묻는 질문",
+                "customerSupport": "고객 지원",
+                "customerSupportDesc": "도움 및 지원 받기"
+            }
+        },
+        "pages": {
+            "accountInfo": {
+                "profileInfo": {
+                    "title": "프로필 정보",
+                    "profile": {
+                        "imageAlt": "프로필 사진",
+                        "changePhoto": "사진 변경",
+                        "defaultName": "사용자 이름",
+                        "memberSince": "{date}부터 회원",
+                        "memberSinceDefault": "2024년 3월부터 회원",
+                        "imageSelected": "새 이미지 선택됨 - 저장을 클릭하여 업데이트"
+                    },
+                    "form": {
+                        "fullName": "전체 이름",
+                        "namePlaceholder": "전체 이름을 입력하세요",
+                        "email": "이메일 주소",
+                        "country": "국가",
+                        "currency": "통화",
+                        "selectCurrency": "통화 선택",
+                        "verified": "인증됨",
+                        "updateButton": "프로필 업데이트",
+                        "updating": "업데이트 중..."
+                    },
+                    "kyc": {
+                        "title": "KYC 상태",
+                        "label": "고객 확인(KYC)",
+                        "description": "신원 인증 상태",
+                        "status": {
+                            "approved": "승인됨",
+                            "rejected": "거부됨",
+                            "pending": "대기 중",
+                            "notApplied": "미신청"
+                        }
+                    },
+                    "messages": {
+                        "updateSuccess": "프로필이 성공적으로 업데이트되었습니다",
+                        "updateError": "프로필 업데이트에 실패했습니다",
+                        "nameRequired": "전체 이름을 입력하세요",
+                        "currencyRequired": "통화를 선택하세요",
+                        "imageTooLarge": "이미지 크기는 5MB 미만이어야 합니다",
+                        "invalidImageFormat": "유효한 이미지 형식을 선택하세요 (JPEG, JPG, PNG, WebP)"
+                    }
+                },
+                "packageCard": {
+                    "title": "패키지 상세정보",
+                    "topUp": {
+                        "button": "충전"
+                    },
+                    "location": {
+                        "flagAlt": "{country} 국기"
+                    },
+                    "usage": {
+                        "internet": "인터넷",
+                        "unlimited": "무제한",
+                        "dataRemaining": "{remaining} / {total} GB",
+                        "progressLabel": "{percent}% 데이터 사용",
+                        "smsLeft": "SMS {count}개 남음",
+                        "smsNotAvailable": "SMS 사용 불가",
+                        "callMinsLeft": "통화 {mins}분 남음",
+                        "callNotAvailable": "통화 사용 불가"
+                    },
+                    "expiry": {
+                        "text": "{date}에 만료"
+                    },
+                    "noPackage": {
+                        "title": "활성 패키지 없음",
+                        "description": "활성 eSIM 패키지가 없습니다"
+                    }
+                },
+                "kycVerification": {
+                    "title": "KYC 인증 완료",
+                    "card": {
+                        "title": "신원 인증",
+                        "description": "KYC 인증을 완료하여 모든 기능을 잠금 해제하고 거래 한도를 늘리세요."
+                    },
+                    "documents": {
+                        "title": "필수 서류:",
+                        "photoId": "정부 발행 사진 신분증 (여권, 운전면허증, 주민등록증)",
+                        "proofAddress": "주소 증명 (공과금 고지서, 은행 명세서)",
+                        "recentPhoto": "최근 사진 (셀카)"
+                    },
+                    "benefits": {
+                        "title": "KYC 후 혜택:",
+                        "higherLimits": "높은 거래 한도",
+                        "premiumPlans": "프리미엄 요금제 이용",
+                        "prioritySupport": "우선 고객 지원",
+                        "enhancedSecurity": "향상된 계정 보안"
+                    },
+                    "startProcess": "KYC 절차 시작",
+                    "modal": {
+                        "title": "KYC 서류 제출"
+                    },
+                    "form": {
+                        "fullName": "전체 이름",
+                        "dob": "생년월일",
+                        "address": "주소",
+                        "identityCardNo": "신분증 번호",
+                        "identityCard": "신분증",
+                        "panCard": "PAN 카드",
+                        "recentPhoto": "최근 사진",
+                        "placeholders": {
+                            "fullName": "신분증상의 전체 이름을 입력하세요",
+                            "address": "전체 주소를 입력하세요",
+                            "identityCardNo": "신분증 번호 입력 (주민등록증/여권/면허증)"
+                        },
+                        "fileFormats": "허용 형식: JPG, PNG, PDF (최대 5MB)",
+                        "imageFormats": "허용 형식: JPG, PNG (최대 5MB)",
+                        "validation": {
+                            "fullNameRequired": "전체 이름이 필요합니다",
+                            "dobRequired": "생년월일이 필요합니다",
+                            "addressRequired": "주소가 필요합니다",
+                            "identityCardNoRequired": "신분증 번호가 필요합니다",
+                            "identityCardRequired": "신분증 서류가 필요합니다",
+                            "panCardRequired": "PAN 카드 서류가 필요합니다",
+                            "photoRequired": "최근 사진이 필요합니다"
+                        },
+                        "cancel": "취소",
+                        "submit": "KYC 제출",
+                        "submitting": "제출 중..."
+                    }
+                },
+                "deleteAccount": {
+                    "dangerZone": "위험 영역",
+                    "title": "계정 삭제",
+                    "description": "계정을 영구적으로 삭제할 수 있습니다. 이 프로세스는 시간이 걸릴 수 있으며 완료 후에는 취소할 수 없습니다.",
+                    "confirmText": "내 계정 삭제",
+                    "consequences": {
+                        "title": "계정 삭제 시 발생하는 일:",
+                        "personalData": "모든 개인 데이터가 영구적으로 제거됩니다",
+                        "esimPlans": "활성 eSIM 요금제가 비활성화됩니다",
+                        "orderHistory": "주문 내역 및 거래 기록이 삭제됩니다",
+                        "membershipBenefits": "모든 회원 혜택에 대한 액세스 권한을 잃게 됩니다",
+                        "irreversible": "이 작업은 취소할 수 없습니다"
+                    },
+                    "button": {
+                        "delete": "계정 삭제",
+                        "deleting": "삭제 중..."
+                    },
+                    "modal": {
+                        "title": "정말 확실하신가요?",
+                        "description": "이 작업은 취소할 수 없습니다. 계정이 영구적으로 삭제되고 서버에서 모든 데이터가 제거됩니다.",
+                        "youWillLose": "잃게 될 것:",
+                        "loss": {
+                            "esimPlans": "모든 활성 eSIM 요금제",
+                            "balance": "계정 잔액 및 리워드",
+                            "orderHistory": "주문 내역",
+                            "membership": "회원 혜택"
+                        },
+                        "typeToConfirm": "확인하려면 아래에 \"{text}\"를 입력하세요:",
+                        "placeholder": "입력: {text}",
+                        "textMismatch": "텍스트가 일치하지 않습니다. 정확히 \"{text}\"를 입력하세요",
+                        "textMatches": "✓ 확인 텍스트 일치",
+                        "cancel": "취소",
+                        "confirm": "네, 내 계정을 삭제합니다",
+                        "deleting": "삭제 중..."
+                    },
+                    "messages": {
+                        "success": "계정 삭제가 성공적으로 시작되었습니다",
+                        "error": "계정 삭제에 실패했습니다. 다시 시도하세요.",
+                        "confirmTextMismatch": "삭제를 확인하려면 정확히 \"{text}\"를 입력하세요."
+                    }
+                }
+            },
+            "orderHistory": {
+                "title": "주문 내역",
+                "subtitle": "모든 eSIM 구매 및 구독 추적",
+                "loading": "주문 로드 중...",
+                "summary": "{total}개 주문 중 {showing}개 표시",
+                "fields": {
+                    "orderRef": "주문 번호",
+                    "status": "주문 상태",
+                    "amount": "금액",
+                    "orderedOn": "주문일",
+                    "notAvailable": "N/A"
+                },
+                "status": {
+                    "delivered": "배송됨",
+                    "shipped": "발송됨",
+                    "processing": "처리 중",
+                    "cancelled": "취소됨",
+                    "completed": "완료됨",
+                    "pending": "대기 중"
+                },
+                "currency": {
+                    "format": "₩{amount}"
+                },
+                "actions": {
+                    "viewDetails": "상세 보기",
+                    "downloadInvoice": "송장 다운로드",
+                    "trackOrder": "주문 추적",
+                    "contactSupport": "고객 지원 문의"
+                },
+                "empty": {
+                    "title": "주문을 찾을 수 없습니다",
+                    "description": "아직 주문하지 않았습니다. 요금제를 탐색해보세요!",
+                    "browsePlans": "요금제 둘러보기"
+                },
+                "pagination": {
+                    "previous": "이전",
+                    "next": "다음",
+                    "pageInfo": "{total}페이지 중 {current}페이지"
+                },
+                "filters": {
+                    "all": "모든 주문",
+                    "completed": "완료됨",
+                    "pending": "대기 중",
+                    "cancelled": "취소됨"
+                }
+            },
+            "esimDetails": {
+                "title": "내 eSIM",
+                "subtitle": "활성 eSIM 프로필 및 데이터 요금제 관리",
+                "loading": "eSIM 상세정보 로드 중...",
+                "instructionsModal": {
+                    "title": "설치 안내"
+                },
+                "fields": {
+                    "iccid": "ICCID:",
+                    "matchingId": "매칭 ID:",
+                    "status": "상태:",
+                    "activatedAt": "활성화일:",
+                    "expiredAt": "만료일:",
+                    "activatedOn": "활성화일:",
+                    "expiryOn": "만료일:",
+                    "validity": "유효기간:",
+                    "price": "가격:",
+                    "package": "패키지:",
+                    "data": "데이터:",
+                    "apnIos": "APN (iOS):",
+                    "apnAndroid": "APN (Android):"
+                },
+                "status": {
+                    "active": "활성",
+                    "expired": "만료됨",
+                    "inactive": "비활성"
+                },
+                "timeLeft": {
+                    "expired": "만료됨",
+                    "left": "{time} 남음",
+                    "days": "{count}일",
+                    "days_plural": "{count}일",
+                    "hours": "{count}시간",
+                    "hours_plural": "{count}시간",
+                    "minutes": "{count}분"
+                },
+                "actions": {
+                    "topup": "충전",
+                    "view": "보기",
+                    "installOnIos": "iOS에 설치",
+                    "installOnAndroid": "Android에 설치",
+                    "instructions": "안내"
+                },
+                "modal": {
+                    "title": "eSIM 상세정보",
+                    "orderInfo": "주문 정보",
+                    "installationGuide": "설치 가이드"
+                },
+                "empty": {
+                    "title": "eSIM 데이터를 찾을 수 없습니다",
+                    "description": "아직 eSIM 데이터가 없습니다."
+                },
+                "currency": {
+                    "format": "{price} {currency}"
+                },
+                "validity": {
+                    "format": "{days}일"
+                }
+            }
+        }
+    }
+}
+
